@@ -13,9 +13,11 @@ import FloatingWhatsapp from '@/components/ui/FloatingWhatsapp';
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col bg-background">
-      <Header />
       <main className="flex-1">
-        <HeroSection />
+        <div className="relative">
+          <Header />
+          <HeroSection />
+        </div>
         <ServicesSection />
         <WhyChooseSection />
         <HowItWorksSection />

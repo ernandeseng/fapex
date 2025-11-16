@@ -40,8 +40,8 @@ const Header = () => {
   );
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center justify-between">
+    <header className="absolute top-0 z-50 w-full bg-transparent">
+      <div className="container flex h-20 items-center justify-between">
         <FapexLogo />
         <nav className="hidden items-center gap-6 md:flex">
           {navLinks.map((link) => (
