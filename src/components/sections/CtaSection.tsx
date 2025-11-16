@@ -4,7 +4,7 @@ import { Mail, Phone } from 'lucide-react';
 const CtaSection = () => {
   const phoneNumber = '5515997769467';
   const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent("Olá! Preciso de uma entrega rápida e confiável.")}`;
-  const email = 'contato@fapexexpress.com.br';
+  const email = 'fabiopereiradesorocaba@gmail.com';
 
   return (
     <section id="contact" className="relative text-white py-20 md:py-28 overflow-hidden bg-gradient-to-r from-[#FF6B35] to-[#E85D04]">

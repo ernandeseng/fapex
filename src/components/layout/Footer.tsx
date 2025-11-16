@@ -6,7 +6,7 @@ import WhatsappIcon from '@/components/icons/WhatsappIcon';
 const Footer = () => {
   const phoneNumber = '5515997769467';
   const whatsappLink = `https://wa.me/${phoneNumber}`;
-  const email = 'contato@fapexexpress.com.br';
+  const email = 'fabiopereiradesorocaba@gmail.com';
   const instagramLink = 'https://www.instagram.com/fabio.pereira.express';
 
   return (
