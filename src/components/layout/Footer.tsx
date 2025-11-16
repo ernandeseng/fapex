@@ -82,11 +82,6 @@ const Footer = () => {
                 {email}
               </a>
             </li>
-            <li>
-              <a href={instagramLink} target="_blank" rel="noopener noreferrer" className="text-sm text-gray-400 hover:text-[#FF6B35] transition-colors">
-                @fabio.pereira.express
-              </a>
-            </li>
             <li className="text-sm text-gray-400">
                 Sorocaba - SP
             </li>
