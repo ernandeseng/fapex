@@ -23,11 +23,12 @@ export default function Home() {
         <ServicesSection />
         <WhyChooseSection />
         <HowItWorksSection />
-        <FleetSection />
+        <FleetGallery fleetData={fleetData}>
+          <FleetSection />
+        </FleetGallery>
         <CoverageSection />
         <SocialProofSection />
         <CtaSection />
-        <FleetGallery fleetData={fleetData} />
       </main>
       <Footer />
       <FloatingWhatsapp />
