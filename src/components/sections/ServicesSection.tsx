@@ -20,7 +20,7 @@ const services = [
   },
   {
     icon: <BoxTruckIcon className="h-8 w-8" />,
-    title: 'Utilitários Baú',
+    title: 'Utilitários VUC',
     description: 'Transporte de cargas médias com segurança e proteção total. Logística inteligente para sua carga.',
     features: ['Até 1000kg', 'Proteção contra chuva', 'Confiança na entrega'],
     cta: 'Solicitar Frete',
@@ -28,7 +28,7 @@ const services = [
   },
   {
     icon: <PickupTruckIcon className="h-8 w-8" />,
-    title: 'PickUp Cargas',
+    title: 'Utilitários compactos',
     description: 'Transporte de móveis, materiais de construção e cargas de maior porte com versatilidade e agilidade.',
     features: ['Caçamba aberta', 'Mudanças pequenas', 'Materiais pesados'],
     cta: 'Pedir Orçamento',
