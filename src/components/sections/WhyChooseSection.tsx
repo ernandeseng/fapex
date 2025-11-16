@@ -4,8 +4,8 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 const differentiators = [
   {
     icon: <Zap className="h-8 w-8 text-primary" />,
-    title: 'Rapidez Garantida',
-    description: 'Comprometimento com prazos e entregas ágeis.',
+    title: 'Agilidade Garantida',
+    description: 'Comprometimento com prazos e entregas rápidas.',
   },
   {
     icon: <Truck className="h-8 w-8 text-primary" />,
@@ -14,12 +14,12 @@ const differentiators = [
   },
   {
     icon: <Navigation className="h-8 w-8 text-primary" />,
-    title: 'Rastreamento',
-    description: 'Acompanhe sua entrega em tempo real do início ao fim.',
+    title: 'Logística Inteligente',
+    description: 'Rastreamento e otimização de rotas em tempo real.',
   },
   {
     icon: <Badge className="h-8 w-8 text-primary" />,
-    title: 'Profissionalismo',
+    title: 'Credibilidade',
     description: 'Equipe uniformizada, identificada e altamente qualificada.',
   },
   {
@@ -29,7 +29,7 @@ const differentiators = [
   },
   {
     icon: <Shield className="h-8 w-8 text-primary" />,
-    title: 'Seguro Incluso',
+    title: 'Confiança Total',
     description: 'Suas cargas protegidas do início ao fim do transporte.',
   },
 ];
@@ -42,10 +42,10 @@ const WhyChooseSection = () => {
         <div className="container relative">
             <div className="text-center">
             <h2 className="font-headline text-3xl font-bold md:text-4xl">
-                Por Que a Fapex Express?
+                Por Que a FAPEXpress?
             </h2>
             <p className="mt-4 text-lg text-gray-300">
-                Oferecemos mais do que transporte, entregamos confiança e tranquilidade.
+                Oferecemos mais do que transporte, entregamos <b className="text-white">confiança</b> e tranquilidade.
             </p>
             </div>
             <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

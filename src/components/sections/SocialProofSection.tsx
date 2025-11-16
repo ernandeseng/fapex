@@ -11,19 +11,19 @@ import { Instagram, Star, Quote } from 'lucide-react';
 
 const testimonials = [
   {
-    quote: 'Entrega super rápida! Recomendo para qualquer um que precise de agilidade.',
+    quote: 'Entrega super rápida! A agilidade e a confiança que eles oferecem são incríveis.',
     author: 'Cliente E-commerce',
   },
   {
-    quote: 'Motorista muito educado e pontual. O serviço de transfer executivo é impecável.',
+    quote: 'Total credibilidade e pontualidade. O serviço de transfer executivo é impecável.',
     author: 'Empresa ABC',
   },
   {
-    quote: 'Melhor custo-benefício que encontrei na região de Sorocaba. Virou meu parceiro de fretes.',
+    quote: 'Logística inteligente e com o melhor custo-benefício que encontrei. Virou meu parceiro de fretes.',
     author: 'Farmácia XYZ',
   },
   {
-    quote: 'Confiável para nossas entregas diárias. A equipe é profissional e sempre cumpre os prazos.',
+    quote: 'Confiança total para nossas entregas diárias. A equipe é profissional e cumpre os prazos.',
     author: 'Loja Parceira',
   },
 ];
@@ -35,10 +35,10 @@ const SocialProofSection = () => {
       <div className="container text-gray-800">
         <div className="text-center mb-12">
           <h2 className="font-headline text-3xl font-bold md:text-4xl text-[#0F172A]">
-            Confira Nossa Reputação
+            Nossa Credibilidade em Foco
           </h2>
           <p className="mt-4 text-lg text-gray-600">
-            A satisfação dos nossos clientes é a nossa melhor propaganda.
+            A satisfação e a <b className="text-gray-900">confiança</b> dos nossos clientes é a nossa melhor propaganda.
           </p>
         </div>
 

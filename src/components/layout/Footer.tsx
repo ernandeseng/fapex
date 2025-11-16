@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="space-y-4">
           <FapexLogo />
           <p className="text-sm text-muted-foreground max-w-xs">
-            Serviços de transporte rápido e confiável para empresas e pessoas físicas.
+            Serviços de transporte rápido com agilidade e confiança para empresas e pessoas físicas.
           </p>
           <div className="flex items-center space-x-4">
             <a
@@ -95,7 +95,7 @@ const Footer = () => {
       </div>
       <div className="bg-[#020617] py-4">
          <div className="container border-t border-orange-500/30 pt-4 text-center text-sm text-gray-500">
-          © {new Date().getFullYear()} Fapex Express - Serviços Rápidos. Todos os direitos reservados.
+          © {new Date().getFullYear()} FAPEXpress - Serviços Rápidos. Todos os direitos reservados.
         </div>
       </div>
     </footer>

@@ -24,7 +24,7 @@ const HeroSection = () => {
         <div className="mb-8 animate-float">
           <Image
             src="https://i.imgur.com/tSdY6Rs.png"
-            alt="Fapex Express Logo"
+            alt="FAPEXpress Logo"
             width={240}
             height={240}
             className="h-48 w-auto sm:h-60"
@@ -35,8 +35,7 @@ const HeroSection = () => {
           Velocidade e Confiança na Entrega
         </h1>
         <p className="mx-auto mt-6 max-w-[700px] text-lg text-white/90 md:text-xl">
-          Serviços de Motoboy, Fretes e Transporte Executivo com Agilidade
-          Profissional.
+          Serviços de Motoboy, Fretes e Transporte Executivo com <b className="text-white">Agilidade Profissional</b> e <b className="text-white">Logística Inteligente</b>.
         </p>
         <div className="mt-8 flex flex-col items-center sm:flex-row gap-4">
           <Button
@@ -55,9 +54,9 @@ const HeroSection = () => {
           </Button>
         </div>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
-          <Badge variant="outline" className="border-green-400 text-green-300 bg-green-900/50 animate-float shadow-lg"> <ShieldCheck className="h-4 w-4 mr-2 text-green-400"/> Disponível 24/7</Badge>
-          <Badge variant="outline" className="border-green-400 text-green-300 bg-green-900/50 animate-float shadow-lg" style={{animationDelay: '0.2s'}}> <ShieldCheck className="h-4 w-4 mr-2 text-green-400"/> Entregas Rápidas</Badge>
-          <Badge variant="outline" className="border-green-400 text-green-300 bg-green-900/50 animate-float shadow-lg" style={{animationDelay: '0.4s'}}> <ShieldCheck className="h-4 w-4 mr-2 text-green-400"/> Equipe Qualificada</Badge>
+          <Badge variant="outline" className="border-green-400 text-green-300 bg-green-900/50 animate-float shadow-lg"> <ShieldCheck className="h-4 w-4 mr-2 text-green-400"/> Agilidade Garantida</Badge>
+          <Badge variant="outline" className="border-green-400 text-green-300 bg-green-900/50 animate-float shadow-lg" style={{animationDelay: '0.2s'}}> <ShieldCheck className="h-4 w-4 mr-2 text-green-400"/> Máxima Confiança</Badge>
+          <Badge variant="outline" className="border-green-400 text-green-300 bg-green-900/50 animate-float shadow-lg" style={{animationDelay: '0.4s'}}> <ShieldCheck className="h-4 w-4 mr-2 text-green-400"/> Total Credibilidade</Badge>
         </div>
       </div>
     </section>

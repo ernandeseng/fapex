@@ -14,22 +14,22 @@ const services = [
     icon: <MotorcycleIcon className="h-8 w-8" />,
     title: 'Motoboy Express',
     description: 'Entregas urgentes e documentos com agilidade em toda região. Ideal para e-commerce, farmácias e empresas.',
-    features: ['Rastreamento em tempo real', 'Entrega no mesmo dia', 'Profissionais uniformizados'],
+    features: ['Rastreamento em tempo real', 'Entrega no mesmo dia', 'Credibilidade e segurança'],
     cta: 'Contratar Motoboy',
     ctaLink: `${whatsappBaseUrl}${encodeURIComponent('Olá, gostaria de contratar um motoboy.')}`
   },
   {
     icon: <BoxTruckIcon className="h-8 w-8" />,
     title: 'Utilitários Baú',
-    description: 'Transporte de cargas médias com segurança e proteção total. Veículos equipados com baú fechado.',
-    features: ['Até 1000kg', 'Proteção contra chuva', 'Cargas volumosas'],
+    description: 'Transporte de cargas médias com segurança e proteção total. Logística inteligente para sua carga.',
+    features: ['Até 1000kg', 'Proteção contra chuva', 'Confiança na entrega'],
     cta: 'Solicitar Frete',
     ctaLink: `${whatsappBaseUrl}${encodeURIComponent('Olá, gostaria de solicitar um frete com utilitário baú.')}`
   },
   {
     icon: <PickupTruckIcon className="h-8 w-8" />,
     title: 'PickUp Cargas',
-    description: 'Transporte de móveis, materiais de construção e cargas de maior porte com versatilidade.',
+    description: 'Transporte de móveis, materiais de construção e cargas de maior porte com versatilidade e agilidade.',
     features: ['Caçamba aberta', 'Mudanças pequenas', 'Materiais pesados'],
     cta: 'Pedir Orçamento',
     ctaLink: `${whatsappBaseUrl}${encodeURIComponent('Olá, gostaria de um orçamento para frete com pickup.')}`
@@ -37,7 +37,7 @@ const services = [
   {
     icon: <ExecutiveCarIcon className="h-8 w-8" />,
     title: 'Transfer Executivo',
-    description: 'Transporte corporativo e executivo com conforto, pontualidade e discrição profissional.',
+    description: 'Transporte corporativo com conforto, pontualidade e discrição. Credibilidade e confiança em cada viagem.',
     features: ['Motoristas treinados', 'Veículos climatizados', 'Atendimento premium'],
     cta: 'Agendar Transfer',
     ctaLink: `${whatsappBaseUrl}${encodeURIComponent('Olá, gostaria de agendar um transfer executivo.')}`

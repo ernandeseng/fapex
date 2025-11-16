@@ -14,10 +14,10 @@ const CtaSection = () => {
 
       <div className="container relative z-10 text-center">
         <h2 className="font-headline text-3xl md:text-5xl font-bold [text-shadow:0_2px_4px_rgba(0,0,0,0.3)]">
-          Precisa de Entrega Rápida e Confiável?
+          Precisa de Entrega com Agilidade e Confiança?
         </h2>
         <p className="mt-4 max-w-2xl mx-auto text-lg text-white/90">
-          Fale com a Fapex Express agora e resolva sua demanda hoje mesmo. Atendimento disponível todos os dias.
+          Fale com a FAPEXpress agora e resolva sua demanda com nossa <b className="text-white">logística inteligente</b>. Atendimento com credibilidade todos os dias.
         </p>
         <div className="mt-8 flex flex-col sm:flex-row justify-center items-center gap-4">
           <Button asChild size="lg" className="bg-white text-[#0F172A] hover:bg-slate-200 scale-100 hover:scale-105 transition-transform duration-300 shadow-lg">

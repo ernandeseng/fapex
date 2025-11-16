@@ -15,11 +15,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Fapex Velocity | Serviços Rápidos de Entrega e Transporte',
+  title: 'FAPEXpress | Logística Inteligente, Agilidade e Confiança',
   description:
-    'Fapex Express: Serviços de Motoboy, Fretes com Utilitários e PickUps, e Transporte Executivo. Velocidade e confiança na entrega em Sorocaba e região.',
+    'FAPEXpress: Logística inteligente para Motoboy, Fretes com Utilitários e PickUps, e Transporte Executivo. Agilidade e confiança em cada entrega.',
   keywords:
-    'Motoboy, Frete, Entrega Rápida, Transporte Executivo, Utilitário Baú, PickUp Cargas, Sorocaba, Fapex Express',
+    'Motoboy, Frete, Entrega Rápida, Transporte Executivo, Utilitário Baú, PickUp Cargas, Sorocaba, FAPEXpress, Logística Inteligente, Agilidade, Confiança, Credibilidade',
 };
 
 export default function RootLayout({
