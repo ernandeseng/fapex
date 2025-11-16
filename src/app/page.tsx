@@ -9,6 +9,8 @@ import CoverageSection from '@/components/sections/CoverageSection';
 import SocialProofSection from '@/components/sections/SocialProofSection';
 import CtaSection from '@/components/sections/CtaSection';
 import FloatingWhatsapp from '@/components/ui/FloatingWhatsapp';
+import { FleetGallery } from '@/components/sections/FleetGallery';
+import { fleetData } from '@/lib/fleet-data';
 
 export default function Home() {
   return (
@@ -25,6 +27,7 @@ export default function Home() {
         <CoverageSection />
         <SocialProofSection />
         <CtaSection />
+        <FleetGallery fleetData={fleetData} />
       </main>
       <Footer />
       <FloatingWhatsapp />
