@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Phone } from 'lucide-react';
+import Image from 'next/image';
 
 const HeroSection = () => {
   const phoneNumber = '5515997769467';
@@ -17,6 +18,16 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-[url(/grid.svg)] bg-center [mask-image:linear-gradient(to_bottom,white_10%,transparent_90%)]"></div>
 
       <div className="container relative z-10 flex min-h-[calc(100vh-4rem)] flex-col items-center justify-center text-center py-20">
+        <div className="mb-4">
+          <Image
+            src="https://i.imgur.com/tSdY6Rs.png"
+            alt="Fapex Express Logo"
+            width={150}
+            height={150}
+            className="h-24 w-auto sm:h-32"
+            priority
+          />
+        </div>
         <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
           Velocidade e Confiança na Entrega
         </h1>
