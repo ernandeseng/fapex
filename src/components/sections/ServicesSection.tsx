@@ -12,7 +12,7 @@ const whatsappBaseUrl = `https://wa.me/${phoneNumber}?text=`;
 const services = [
   {
     icon: <MotorcycleIcon className="h-8 w-8" />,
-    title: 'Motoboy Express',
+    title: 'Motoboy',
     description: 'Entregas urgentes e documentos com agilidade em toda região. Ideal para e-commerce, farmácias e empresas.',
     features: ['Rastreamento em tempo real', 'Entrega no mesmo dia', 'Credibilidade e segurança'],
     cta: 'Contratar Motoboy',
