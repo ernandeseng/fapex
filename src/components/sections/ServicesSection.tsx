@@ -45,23 +45,26 @@ const services = [
 ];
 
 const ServicesSection = () => (
-    <section id="services" className="py-16 md:py-24 bg-background">
+    <section id="services" className="py-16 md:py-24 bg-white text-gray-800">
       <div className="container">
-        <h2 className="text-center font-headline text-3xl font-bold md:text-4xl">
-          Nossos Serviços Especializados
-        </h2>
+        <div className='text-center'>
+            <h2 className="font-headline text-3xl font-bold md:text-4xl text-[#0F172A]">
+            Nossos Serviços Especializados
+            </h2>
+            <div className="mt-2 mx-auto h-1 w-24 bg-primary rounded-full"></div>
+        </div>
         <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-          {services.map((service) => (
-            <Card key={service.title} className="flex flex-col bg-card transform transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-primary/10 border-border hover:border-primary/50">
+          {services.map((service, index) => (
+            <Card key={service.title} className="flex flex-col bg-white text-gray-800 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-primary/20 border-t-4 border-t-primary shadow-lg rounded-lg">
               <CardHeader className="items-center text-center">
-                <div className="rounded-full bg-primary/10 p-4 text-primary">
+                <div className="rounded-full bg-[#0F172A] p-4 text-primary">
                   {service.icon}
                 </div>
-                <CardTitle className="mt-4 font-headline">{service.title}</CardTitle>
+                <CardTitle className="mt-4 font-headline text-[#0F172A]">{service.title}</CardTitle>
               </CardHeader>
               <CardContent className="flex flex-1 flex-col text-center">
-                <CardDescription>{service.description}</CardDescription>
-                <ul className="mt-6 space-y-2 text-sm text-muted-foreground text-left flex-1">
+                <CardDescription className="text-gray-600">{service.description}</CardDescription>
+                <ul className="mt-6 space-y-2 text-sm text-gray-700 text-left flex-1">
                   {service.features.map((feature) => (
                     <li key={feature} className="flex items-start">
                       <Check className="mr-2 mt-1 h-4 w-4 flex-shrink-0 text-primary" />
@@ -69,7 +72,7 @@ const ServicesSection = () => (
                     </li>
                   ))}
                 </ul>
-                <Button className="mt-8 w-full" asChild>
+                <Button className="mt-8 w-full bg-gradient-to-r from-[#FF6B35] to-[#F97316] text-white font-bold" asChild>
                   <a href={service.ctaLink} target="_blank" rel="noopener noreferrer">
                     {service.cta}
                   </a>

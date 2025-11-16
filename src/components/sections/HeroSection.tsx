@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { Phone } from 'lucide-react';
+import { Phone, ShieldCheck } from 'lucide-react';
 import Image from 'next/image';
 
 const HeroSection = () => {
@@ -12,26 +12,29 @@ const HeroSection = () => {
   return (
     <section
       id="hero"
-      className="relative w-full overflow-hidden bg-background text-white"
+      className="relative w-full overflow-hidden text-white"
     >
-      <div className="absolute inset-0 bg-gradient-to-br from-card to-background opacity-70"></div>
-      <div className="absolute inset-0 bg-[url(/grid.svg)] bg-center [mask-image:linear-gradient(to_bottom,white_10%,transparent_90%)]"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-[#0F172A] via-[#FF6B35] to-[#E85D04]"></div>
+      <div className="absolute inset-0 bg-[url(/grid.svg)] bg-center opacity-10 [mask-image:linear-gradient(to_bottom,white_10%,transparent_90%)]"></div>
+       <div className="absolute -bottom-1/4 left-0 w-1/2 h-1/2 bg-white/5 rounded-full filter blur-3xl opacity-50 animate-pulse"></div>
+       <div className="absolute -top-1/4 right-0 w-1/2 h-1/2 bg-white/5 rounded-full filter blur-3xl opacity-50 animate-pulse delay-2000"></div>
 
-      <div className="container relative z-10 flex min-h-[calc(100vh-4rem)] flex-col items-center justify-center text-center py-20">
-        <div className="mb-6">
+
+      <div className="container relative z-10 flex min-h-screen flex-col items-center justify-center text-center py-20">
+        <div className="mb-8 animate-float">
           <Image
             src="https://i.imgur.com/tSdY6Rs.png"
             alt="Fapex Express Logo"
-            width={200}
-            height={200}
-            className="h-32 w-auto sm:h-40"
+            width={240}
+            height={240}
+            className="h-48 w-auto sm:h-60"
             priority
           />
         </div>
-        <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
+        <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl" style={{textShadow: '0 3px 6px rgba(0,0,0,0.3)'}}>
           Velocidade e Confiança na Entrega
         </h1>
-        <p className="mx-auto mt-6 max-w-[700px] text-lg text-muted-foreground md:text-xl">
+        <p className="mx-auto mt-6 max-w-[700px] text-lg text-white/90 md:text-xl">
           Serviços de Motoboy, Fretes e Transporte Executivo com Agilidade
           Profissional.
         </p>
@@ -39,32 +42,29 @@ const HeroSection = () => {
           <Button
             asChild
             size="lg"
-            className="animate-pulse-orange"
+            className="bg-white text-primary-foreground font-bold hover:bg-gray-200 hover:text-orange-600 transition-all duration-300 scale-100 hover:scale-105 shadow-lg"
+            style={{color: '#FF6B35'}}
           >
             <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
               <Phone className="mr-2 h-5 w-5" />
               Solicite Agora pelo WhatsApp
             </a>
           </Button>
-          <Button asChild size="lg" variant="outline">
+          <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary transition-all duration-300">
             <a href="#services">Conheça Nossos Serviços</a>
           </Button>
         </div>
-        <div className="mt-6">
-          <a
-            href={`tel:${phoneNumber}`}
-            className="text-lg font-medium text-muted-foreground hover:text-primary transition-colors"
-          >
-            (15) 99776-9467
-          </a>
-        </div>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
-          <Badge variant="secondary">Disponível 24/7</Badge>
-          <Badge variant="secondary">Entregas Rápidas</Badge>
-          <Badge variant="secondary">Equipe Qualificada</Badge>
+          <Badge variant="outline" className="border-green-400 text-green-300 bg-green-900/50 animate-float shadow-lg"> <ShieldCheck className="h-4 w-4 mr-2 text-green-400"/> Disponível 24/7</Badge>
+          <Badge variant="outline" className="border-green-400 text-green-300 bg-green-900/50 animate-float shadow-lg" style={{animationDelay: '0.2s'}}> <ShieldCheck className="h-4 w-4 mr-2 text-green-400"/> Entregas Rápidas</Badge>
+          <Badge variant="outline" className="border-green-400 text-green-300 bg-green-900/50 animate-float shadow-lg" style={{animationDelay: '0.4s'}}> <ShieldCheck className="h-4 w-4 mr-2 text-green-400"/> Equipe Qualificada</Badge>
         </div>
       </div>
-      <div className="absolute bottom-0 left-0 h-20 w-full bg-gradient-to-t from-background to-transparent"></div>
+      <div className="wave-divider">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" className="shape-fill"></path>
+        </svg>
+      </div>
     </section>
   );
 };

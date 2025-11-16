@@ -12,14 +12,17 @@ const FloatingWhatsapp = () => {
       href={whatsappLink}
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-6 right-6 z-50"
+      className="fixed bottom-6 right-6 z-50 group"
       aria-label="Fale conosco pelo WhatsApp"
     >
       <Button
         size="icon"
-        className="h-16 w-16 rounded-full bg-primary hover:bg-accent shadow-lg animate-pulse-orange"
+        className="h-16 w-16 rounded-full bg-primary hover:bg-accent shadow-lg transition-transform duration-300 group-hover:scale-110"
+        style={{
+          animation: 'pulse-orange 2s infinite'
+        }}
       >
-        <WhatsappIcon className="h-8 w-8 text-primary-foreground" />
+        <WhatsappIcon className="h-8 w-8 text-white" />
       </Button>
     </a>
   );

@@ -27,13 +27,13 @@ const fleetVehicles = [
 
 const FleetSection = () => {
   return (
-    <section id="fleet" className="py-16 md:py-24 bg-card">
+    <section id="fleet" className="py-16 md:py-24 bg-white text-gray-800">
       <div className="container">
         <div className="text-center mb-12">
-          <h2 className="font-headline text-3xl font-bold md:text-4xl">
+          <h2 className="font-headline text-3xl font-bold md:text-4xl text-[#0F172A]">
             Nossa Frota Completa
           </h2>
-          <p className="mt-4 text-lg text-muted-foreground">
+          <p className="mt-4 text-lg text-gray-600">
             Veículos revisados e preparados para qualquer demanda.
           </p>
         </div>
@@ -43,19 +43,19 @@ const FleetSection = () => {
             if (!image) return null;
 
             return (
-              <Card key={vehicle.id} className="group overflow-hidden relative">
+              <Card key={vehicle.id} className="group overflow-hidden relative border-2 border-[#0F172A] hover:border-primary transition-all duration-300 shadow-lg">
                 <Image
                   src={image.imageUrl}
                   alt={image.description}
                   width={600}
                   height={400}
                   data-ai-hint={image.imageHint}
-                  className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
+                  className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110 group-hover:brightness-110"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0F172A]/90 via-[#0F172A]/50 to-transparent" />
                 <CardContent className="absolute bottom-0 left-0 p-4 w-full">
                   <h3 className="font-headline text-xl font-bold text-white">{vehicle.name}</h3>
-                  <p className="text-sm text-gray-300">{vehicle.capacity}</p>
+                  <p className="text-sm text-primary">{vehicle.capacity}</p>
                 </CardContent>
               </Card>
             );
