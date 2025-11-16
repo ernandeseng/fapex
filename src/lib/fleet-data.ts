@@ -37,7 +37,7 @@ export const fleetData: FleetVehicle[] = [
   {
     id: 'pickup-truck',
     name: 'Utilitários compactos',
-    capacity: 'aberto ou fechado de acordo com a sua necessidade.',
+    capacity: 'Aberto ou fechado de acordo com a sua necessidade.',
     images: [
       { url: 'https://i.imgur.com/OJmYBRW.png', alt: 'Utilitário compacto Fapex' },
       { url: 'https://i.imgur.com/vV9KN3H.png', alt: 'Utilitário compacto Strada Fapex' },
