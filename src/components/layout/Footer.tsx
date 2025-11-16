@@ -22,22 +22,22 @@ const Footer = () => {
               href={instagramLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white transition-colors group"
+              className="text-gray-400 hover:text-white transition-transform duration-300 hover:scale-110"
               aria-label="Instagram"
             >
-              <div className="h-10 w-10 bg-[#FF6B35] rounded-full flex items-center justify-center transition-all duration-300 group-hover:bg-white">
-                <Instagram className="h-6 w-6 text-white group-hover:text-[#FF6B35]" />
+              <div className="h-10 w-10 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-full flex items-center justify-center">
+                <Instagram className="h-6 w-6 text-white" />
               </div>
             </a>
             <a
               href={whatsappLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white transition-colors group"
+              className="text-gray-400 hover:text-white transition-transform duration-300 hover:scale-110"
               aria-label="WhatsApp"
             >
-               <div className="h-10 w-10 bg-[#FF6B35] rounded-full flex items-center justify-center transition-all duration-300 group-hover:bg-white">
-                <WhatsappIcon className="h-6 w-6 text-white group-hover:text-[#FF6B35]" />
+               <div className="h-10 w-10 bg-[#25D366] rounded-full flex items-center justify-center">
+                <WhatsappIcon className="h-6 w-6 text-white" />
               </div>
             </a>
           </div>

@@ -75,7 +75,6 @@ const SocialProofSection = () => {
         
         <div className="mt-16 text-center">
             <h3 className="font-headline text-2xl font-bold text-[#0F172A]">Siga-nos no Instagram</h3>
-            <p className="text-gray-600 mt-2 text-lg">@fabio.pereira.express</p>
             <Button asChild className="mt-4 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-white font-bold transition-transform hover:scale-105">
                 <a href={instagramLink} target="_blank" rel="noopener noreferrer">
                     <Instagram className="mr-2 h-5 w-5" />
