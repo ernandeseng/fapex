@@ -12,7 +12,6 @@ const navLinks = [
   { href: '#why-us', label: 'Diferenciais' },
   { href: '#how-it-works', label: 'Como Funciona' },
   { href: '#fleet', label: 'Frota' },
-  { href: '#optimizer', label: 'Otimizador' },
 ];
 
 const Header = () => {

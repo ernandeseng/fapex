@@ -9,7 +9,6 @@ import CoverageSection from '@/components/sections/CoverageSection';
 import SocialProofSection from '@/components/sections/SocialProofSection';
 import CtaSection from '@/components/sections/CtaSection';
 import FloatingWhatsapp from '@/components/ui/FloatingWhatsapp';
-import RouteOptimizerSection from '@/components/sections/RouteOptimizerSection';
 
 export default function Home() {
   return (
@@ -19,7 +18,6 @@ export default function Home() {
         <HeroSection />
         <ServicesSection />
         <WhyChooseSection />
-        <RouteOptimizerSection />
         <HowItWorksSection />
         <FleetSection />
         <CoverageSection />
