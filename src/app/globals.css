@@ -75,27 +75,6 @@
   }
 }
 
-.wave-divider {
-    position: absolute;
-    bottom: -1px;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.wave-divider svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 120px;
-}
-
-.wave-divider .shape-fill {
-    fill: hsl(var(--background));
-}
-
 @keyframes float {
   0% { transform: translateY(0px); }
   50% { transform: translateY(-10px); }
