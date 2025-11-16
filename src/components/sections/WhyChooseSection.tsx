@@ -20,7 +20,7 @@ const differentiators = [
   {
     icon: <Badge className="h-8 w-8 text-primary" />,
     title: 'Credibilidade',
-    description: 'Equipe uniformizada, identificada e altamente qualificada.',
+    description: 'Equipe qualificada e identificada para sua segurança.',
   },
   {
     icon: <Clock className="h-8 w-8 text-primary" />,
