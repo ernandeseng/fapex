@@ -53,12 +53,12 @@ const Footer = () => {
             </li>
             <li>
               <Link href="#services" className="text-sm text-gray-400 hover:text-[#FF6B35] transition-colors">
-                Utilitários
+                Utilitários VUC
               </Link>
             </li>
             <li>
               <Link href="#services" className="text-sm text-gray-400 hover:text-[#FF6B35] transition-colors">
-                PickUp
+                Utilitários compactos
               </Link>
             </li>
             <li>
