@@ -14,17 +14,17 @@ const HeroSection = () => {
       id="hero"
       className="relative w-full overflow-hidden bg-background text-white"
     >
-      <div className="absolute inset-0 bg-gradient-to-br from-card to-background opacity-50"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-card to-background opacity-70"></div>
       <div className="absolute inset-0 bg-[url(/grid.svg)] bg-center [mask-image:linear-gradient(to_bottom,white_10%,transparent_90%)]"></div>
 
       <div className="container relative z-10 flex min-h-[calc(100vh-4rem)] flex-col items-center justify-center text-center py-20">
-        <div className="mb-4">
+        <div className="mb-6">
           <Image
             src="https://i.imgur.com/tSdY6Rs.png"
             alt="Fapex Express Logo"
-            width={150}
-            height={150}
-            className="h-24 w-auto sm:h-32"
+            width={200}
+            height={200}
+            className="h-32 w-auto sm:h-40"
             priority
           />
         </div>
